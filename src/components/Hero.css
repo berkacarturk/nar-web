@@ -5,7 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--color-bg);
+    background-color: transparent;
 }
 
 
@@ -33,12 +33,11 @@
 }
 
 .hero-subtitle {
-    font-size: 1.25rem;
-    /* 20px */
-    color: var(--color-text-muted);
+    font-size:xx-large;
+    color:#e2e8f0;
     max-width: 640px;
     margin: 0 auto var(--spacing-xl);
-    font-weight: 400;
+    font-weight: 800;
     line-height: 1.6;
 }
 
@@ -60,7 +59,7 @@
 }
 
 .btn-primary {
-    background: var(--color-text-main);
+    background: var(--color-text-muted);
     /* White/Light Slate */
     color: var(--color-bg);
     /* Dark Slate */
@@ -68,7 +67,7 @@
 }
 
 .btn-primary:hover {
-    background: #e2e8f0;
+    background: #00000048;
     /* Slate 200 */
     border-color: #e2e8f0;
     transform: translateY(-1px);

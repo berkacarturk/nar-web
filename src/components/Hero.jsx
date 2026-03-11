@@ -8,12 +8,11 @@ const Hero = () => {
             <div className="container hero-content">
 
                 <h1 className="hero-title">
-                    Nükleer Algılayıcılar ve robotik Uyg. <br />
-                    <span className="text-gradient">Arş. Merkezi</span>
+                    Nükleer Algılayıcılar ve robotik <br />
                 </h1>
-                <p className="hero-subtitle">
-                
-                </p>
+                <h2 className="hero-subtitle" >
+                    Uygulama ve Araştırma Merkezi
+                </h2>
                 <div className="hero-buttons">
                     <a href="#research" className="btn btn-primary">Projelerimizi İnceleyin</a>
                     <a href="#contact" className="btn btn-outline">İletişime Geçin</a>

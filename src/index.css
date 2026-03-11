@@ -2,7 +2,7 @@
   /* Professional Color Palette */
   --color-bg: #ffffff;
   /* Slate 900 - Deep, rich background */
-  --color-surface: #ffffff;
+  --color-surface: #8b2232;
   /* Slate 800 - Subtle contrast for cards */
   --color-surface-light: #ffffff;
   /* Slate 700 - Lighter surface for hovers */
@@ -18,12 +18,17 @@
   --color-secondary: #64748b;
   /* Slate 500 - Professional secondary/muted */
 
-  --color-text-main: #f8fafc;
+  --color-text-main: #ffffff;
   /* Slate 50 - High contrast text */
-  --color-text-muted: #94a3b8;
+  --color-text-muted: #000000;
   /* Slate 400 - Readable muted text */
   --color-border: #334155;
   /* Slate 700 - Subtle borders */
+  
+
+  /* Background image placeholder */
+  --bg-image: url('https://picsum.photos/id/1015/1920/1080');
+  --bg-overlay: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(2, 6, 23, 0.6) 50%, rgba(2, 6, 23, 0.85) 100%);
 
   /* Typography */
   --font-main: 'Open Sans', system-ui, -apple-system, sans-serif;
@@ -58,7 +63,11 @@
 
 body {
   font-family: var(--font-main);
-  background-color: var(--color-bg);
+  background-color: #0b0f1a;
+  background-image: var(--bg-overlay), var(--bg-image);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
   color: var(--color-text-main);
   line-height: 1.6;
   overflow-x: hidden;

@@ -1,6 +1,6 @@
+import './Navbar.css';
 import React, { useState, useEffect } from 'react';
 import { useLanguage } from '../context/LanguageContext';
-import './Navbar.css';
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -21,10 +21,7 @@ const Navbar = () => {
   return (
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="container navbar-content">
-        <div className="logo">
-          NAR
-          <div className="logo-dot"></div>
-        </div>
+        <img src="/logo.svg" alt = "NAR" className ="logo-img" />
         <div className="nav-right">
           <ul className="nav-links">
             <li><a href="#hero">{t('navbar.home')}</a></li>
