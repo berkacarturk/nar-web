@@ -8,7 +8,7 @@ const Hero = () => {
             <div className="container hero-content">
 
                 <h1 className="hero-title">
-                    Nükleer Algılayıcılar ve robotik <br />
+                    Nükleer Algılayıcılar ve Robotik <br />
                 </h1>
                 <h2 className="hero-subtitle" >
                     Uygulama ve Araştırma Merkezi

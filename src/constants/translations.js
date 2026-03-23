@@ -3,8 +3,16 @@ export const translations = {
         navbar: {
             home: "Home",
             about: "About Us",
-            research: "R&D",
-            contact: "Contact"
+            infrastructure: "Infrastructure",
+            research: "Work Areas",
+            contact: "Contact",
+            team: "Our Team",
+            infraSubs: {
+                hangar: "Hangar",
+                laboratory: "Laboratory",
+                experimentRoom: "Experiment Room",
+                controlRoom: "Control Room"
+            }
         },
         about: {
             title: "Istanbul Sabahattin Zaim University",
@@ -24,7 +32,19 @@ export const translations = {
             cards: {
                 nuclearSafety: "Nuclear Safety",
                 autonomousRobotics: "Autonomous Robotics"
-            }
+            },
+            hangarTitle: "Hangar",
+            hangarText: "The NAR/NDR hangar serves as the primary assembly and integration facility, housing large-scale robotic platforms and detector systems. This space enables full-scale prototyping, system integration testing, and deployment preparation for field operations.",
+            labTitle: "Laboratory",
+            labText: "Our state-of-the-art laboratory is equipped with advanced nuclear detection and measurement systems. Here, precise experiments on radiation detectors, crystal characterization, and sensor calibration are conducted under controlled conditions.",
+            experimentTitle: "Experiment Room",
+            experimentText: "The experiment room provides a dedicated environment for conducting specialized tests and experiments. It features shielded areas for radiation testing, clean room sections for sensitive component assembly, and data acquisition systems for real-time monitoring.",
+            controlTitle: "Control Room",
+            controlText: "The control room is the nerve center of our research operations, housing monitoring systems, remote operation interfaces, and data analysis workstations. From here, experiments and robotic systems are coordinated and supervised in real time."
+        },
+        room: {
+            backToHome: "Back to Home",
+            photo: "Photo"
         },
         team: {
             title: "Our Team",
@@ -51,9 +71,16 @@ export const translations = {
         navbar: {
             home: "Ana Sayfa",
             about: "Hakkımızda",
-            research: "Ar-Ge",
+            infrastructure: "Altyapımız",
+            research: "Çalışma Alanları",
             contact: "İletişim",
-            team: "Ekibimiz"
+            team: "Ekibimiz",
+            infraSubs: {
+                hangar: "Hangar",
+                laboratory: "Laboratuvar",
+                experimentRoom: "Deney Odası",
+                controlRoom: "Kontrol Odası"
+            }
         },
         about: {
             title: "İstanbul Sabahattin Zaim Üniversitesi",
@@ -73,7 +100,19 @@ export const translations = {
             cards: {
                 NuclearDetectors: "Nükleer Algılayıcılar",
                 Robotics: "Robotik"
-            }
+            },
+            hangarTitle: "Hangar",
+            hangarText: "NAR/NDR hangarı, büyük ölçekli robotik platformları ve dedektör sistemlerini barındıran birincil montaj ve entegrasyon tesisidir. Bu alan, tam ölçekli prototipleme, sistem entegrasyon testleri ve saha operasyonları için hazırlık çalışmalarına olanak tanımaktadır.",
+            labTitle: "Laboratuvar",
+            labText: "Son teknoloji laboratuvarımız, gelişmiş nükleer algılama ve ölçüm sistemleri ile donatılmıştır. Burada, radyasyon dedektörleri, kristal karakterizasyonu ve sensör kalibrasyonu üzerine hassas deneyler kontrollü koşullar altında gerçekleştirilmektedir.",
+            experimentTitle: "Deney Odası",
+            experimentText: "Özel testler ve deneyler yürütmek için ayrılmış bir ortam sağlayan deney odamız; radyasyon testleri için zırhlı alanlar, hassas bileşen montajı için temiz oda bölümleri ve gerçek zamanlı izleme için veri toplama sistemleri içermektedir.",
+            controlTitle: "Kontrol Odası",
+            controlText: "Kontrol odası, araştırma operasyonlarımızın sinir merkezidir. İzleme sistemleri, uzaktan çalıştırma arayüzleri ve veri analiz istasyonları burada bulunmaktadır. Deneyler ve robotik sistemler buradan gerçek zamanlı olarak koordine edilmekte ve denetlenmektedir."
+        },
+        room: {
+            backToHome: "Ana Sayfaya Dön",
+            photo: "Fotoğraf"
         },
         team: {
             title: "Ekibimiz",

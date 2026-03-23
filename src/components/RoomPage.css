@@ -1,0 +1,120 @@
+.room-page {
+    min-height: 100vh;
+    background-color: var(--color-bg);
+    padding-bottom: var(--spacing-xxl);
+}
+
+.room-hero {
+    padding: 120px 0 var(--spacing-xl);
+    background: linear-gradient(180deg, var(--color-surface) 0%, var(--color-bg) 100%);
+    border-bottom: 1px solid var(--color-surface-light);
+}
+
+.back-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--color-primary-light);
+    font-size: 0.9375rem;
+    font-weight: 600;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px 0;
+    margin-bottom: var(--spacing-lg);
+    transition: color 0.2s ease;
+}
+
+.back-btn:hover {
+    color: var(--color-primary);
+}
+
+.room-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--color-text-main);
+    letter-spacing: -0.02em;
+}
+
+/* ── Description ── */
+.room-content {
+    margin-top: var(--spacing-xl);
+}
+
+.room-description {
+    max-width: 800px;
+    margin-bottom: var(--spacing-xl);
+}
+
+.room-description p {
+    color: var(--color-text-muted);
+    font-size: 1.0625rem;
+    line-height: 1.8;
+}
+
+/* ── Gallery ── */
+.room-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: var(--spacing-lg);
+}
+
+.room-gallery-item {
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    background: var(--color-surface);
+    border: 1px solid var(--color-surface-light);
+    aspect-ratio: 16 / 10;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.room-gallery-item:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+    border-color: var(--color-primary-light);
+}
+
+.room-gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.room-placeholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    color: var(--color-text-muted);
+    background: var(--color-surface);
+}
+
+.room-placeholder span {
+    font-size: 2.5rem;
+    opacity: 0.5;
+}
+
+.room-placeholder p {
+    font-size: 0.875rem;
+    font-weight: 500;
+    opacity: 0.6;
+}
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+    .room-hero {
+        padding: 100px 0 var(--spacing-lg);
+    }
+
+    .room-title {
+        font-size: 1.75rem;
+    }
+
+    .room-gallery {
+        grid-template-columns: 1fr;
+    }
+}

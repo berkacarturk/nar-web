@@ -31,14 +31,8 @@ const About = () => {
                         </ul>
                     </div>
                     <div className="about-visual">
-                        <div className="visual-card">
-                            <div className="card-icon">☢️</div>
-                            <h3>{t('about.cards.NuclearDetectors')}</h3>
-                        </div>
-                        <div className="visual-card card-offset">
-                            <div className="card-icon">🤖</div>
-                            <h3>{t('about.cards.Robotics')}</h3>
-                        </div>
+                        
+                       
                     </div>
                 </div>
             </div>

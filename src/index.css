@@ -1,34 +1,38 @@
 :root {
-  /* Professional Color Palette */
-  --color-bg: #ffffff;
-  /* Slate 900 - Deep, rich background */
-  --color-surface: #8b2232;
-  /* Slate 800 - Subtle contrast for cards */
-  --color-surface-light: #ffffff;
-  /* Slate 700 - Lighter surface for hovers */
+  /* NAR Kurumsal Renk Paleti — Açık & Şık */
+  --color-bg: #faf8f7;
+  /* Sıcak kırık beyaz — ana arka plan */
+  --color-surface: #ffffff;
+  /* Saf beyaz — kart arka planları */
+  --color-surface-light: #f0edeb;
+  /* Sıcak açık gri — hover / ikon kutuları */
 
-  --color-primary: #dc2626;
-  /* Red 600 - Bold, professional red */
-  --color-primary-dark: #b91c1c;
-  /* Red 700 - Darker shade for interactions */
-  --color-primary-light: #ef4444;
-  /* Red 500 - Lighter shade for accents */
-  --color-primary-dim: rgba(220, 38, 38, 0.1);
+  --color-primary: #8B2232;
+  /* NAR nar kırmızısı — marka ana renk */
+  --color-primary-dark: #722038;
+  /* Daha koyu nar — hover / aktif */
+  --color-primary-light: #a9394d;
+  /* Yumuşak açık nar — aksan / etiket */
+  --color-primary-dim: rgba(139, 34, 50, 0.08);
+  /* Çok hafif nar tonu */
 
-  --color-secondary: #64748b;
-  /* Slate 500 - Professional secondary/muted */
+  --color-secondary: #7c8594;
+  /* Yumuşak gri-mavi — ikincil bilgi */
 
-  --color-text-main: #ffffff;
-  /* Slate 50 - High contrast text */
-  --color-text-muted: #000000;
-  /* Slate 400 - Readable muted text */
-  --color-border: #334155;
-  /* Slate 700 - Subtle borders */
-  
+  --color-text-main: #2d2d2d;
+  /* Koyu antrasit — ana metin */
+  --color-text-muted: #6b7280;
+  /* Orta gri — ikincil metin */
+  --color-border: #e5e1de;
+  /* Sıcak açık çizgi */
+  --color-title:#ffffff;
 
-  /* Background image placeholder */
-  --bg-image: url('https://picsum.photos/id/1015/1920/1080');
-  --bg-overlay: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(2, 6, 23, 0.6) 50%, rgba(2, 6, 23, 0.85) 100%);
+  /* Arka plan görseli */
+  --bg-image: url('/izuimg.jpg');
+  --bg-overlay: linear-gradient(180deg,
+      rgba(40, 30, 35, 0.3) 0%,
+      rgba(255, 255, 255, 0.362) 40%,
+      rgba(255, 255, 255, 0) 100%);
 
   /* Typography */
   --font-main: 'Open Sans', system-ui, -apple-system, sans-serif;
@@ -51,8 +55,8 @@
   --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
   --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-  --shadow-glow: 0 0 20px rgba(220, 38, 38, 0.15);
-  /* Subtler glow */
+  --shadow-glow: 0 0 15px rgba(139, 34, 50, 0.12);
+  /* Hafif nar parıltısı */
 }
 
 * {
@@ -63,7 +67,7 @@
 
 body {
   font-family: var(--font-main);
-  background-color: #0b0f1a;
+  background-color: var(--color-bg);
   background-image: var(--bg-overlay), var(--bg-image);
   background-position: center;
   background-size: cover;
